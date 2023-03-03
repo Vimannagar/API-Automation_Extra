@@ -1,9 +1,11 @@
 package basics;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import groovy.time.Duration;
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
@@ -55,10 +57,47 @@ Response response = given()
 		.response();
 
 	
+//	first way to get the value from response:
+
+			JsonPath js = response.jsonPath();
+			
+			String emailfromresponse = js.getString("data.email");
+			
+			
+			System.out.println("email value is "+emailfromresponse);
+
+			String firstname = js.getString("data.first_name");
+			
+			System.out.println(firstname);
+			
+			int idvalue = js.getInt("data.id");
+
+			System.out.println(idvalue);
+
+
+
+// second way to get the response
+			
+	String stringresponse = response.asPrettyString();
+	
+	JsonPath jp = new JsonPath(stringresponse);
+	
+	String url = jp.getString("support.url");
+	
+	System.out.println(url);
 		
 
+	long timetakenforresponse = response.getTime();// this provide the response time for api response
+	
+	System.out.println(timetakenforresponse);
+	
+	response.getStatusCode();// this provide the status code for api response
+	
+	response.getStatusLine();// this provide the status line for api response
+	
+	
 
-				
+	Assert.assertEquals(emailfromresponse, "janet.weaver@reqres.in");
 	}
 	
 	

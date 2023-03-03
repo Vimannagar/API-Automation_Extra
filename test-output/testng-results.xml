@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-02T09:02:51 IST" name="Default suite" finished-at="2023-03-02T09:02:57 IST" duration-ms="5627">
+  <suite started-at="2023-03-03T08:49:00 IST" name="Default suite" finished-at="2023-03-03T08:49:06 IST" duration-ms="6384">
     <groups>
     </groups>
-    <test started-at="2023-03-02T09:02:51 IST" name="Default test" finished-at="2023-03-02T09:02:57 IST" duration-ms="5627">
+    <test started-at="2023-03-03T08:49:00 IST" name="Default test" finished-at="2023-03-03T08:49:06 IST" duration-ms="6384">
       <class name="basics.SingleUser">
-        <test-method signature="getSingleUser()[pri:1, instance:basics.SingleUser@429bffaa]" started-at="2023-03-02T09:02:51 IST" name="getSingleUser" finished-at="2023-03-02T09:02:56 IST" duration-ms="5042" status="PASS">
+        <test-method signature="getSingleUser()[pri:1, instance:basics.SingleUser@429bffaa]" started-at="2023-03-03T08:49:00 IST" name="getSingleUser" finished-at="2023-03-03T08:49:04 IST" duration-ms="4090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
-        <test-method signature="validateEmailFromResponse()[pri:2, instance:basics.SingleUser@429bffaa]" started-at="2023-03-02T09:02:56 IST" name="validateEmailFromResponse" finished-at="2023-03-02T09:02:57 IST" duration-ms="428" status="PASS">
+        <test-method signature="validateEmailFromResponse()[pri:2, instance:basics.SingleUser@429bffaa]" started-at="2023-03-03T08:49:04 IST" name="validateEmailFromResponse" finished-at="2023-03-03T08:49:06 IST" duration-ms="2178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailFromResponse -->
