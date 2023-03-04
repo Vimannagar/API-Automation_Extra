@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-03T08:49:00 IST" name="Default suite" finished-at="2023-03-03T08:49:06 IST" duration-ms="6384">
+  <suite started-at="2023-03-04T08:43:40 IST" name="Default suite" finished-at="2023-03-04T08:43:47 IST" duration-ms="6834">
     <groups>
     </groups>
-    <test started-at="2023-03-03T08:49:00 IST" name="Default test" finished-at="2023-03-03T08:49:06 IST" duration-ms="6384">
-      <class name="basics.SingleUser">
-        <test-method signature="getSingleUser()[pri:1, instance:basics.SingleUser@429bffaa]" started-at="2023-03-03T08:49:00 IST" name="getSingleUser" finished-at="2023-03-03T08:49:04 IST" duration-ms="4090" status="PASS">
+    <test started-at="2023-03-04T08:43:40 IST" name="Default test" finished-at="2023-03-04T08:43:47 IST" duration-ms="6834">
+      <class name="basics.GetDynamicValuesFromJSON">
+        <test-method signature="getEmail()[pri:0, instance:basics.GetDynamicValuesFromJSON@4a7f959b]" started-at="2023-03-04T08:43:40 IST" name="getEmail" finished-at="2023-03-04T08:43:47 IST" duration-ms="6697" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSingleUser -->
-        <test-method signature="validateEmailFromResponse()[pri:2, instance:basics.SingleUser@429bffaa]" started-at="2023-03-03T08:49:04 IST" name="validateEmailFromResponse" finished-at="2023-03-03T08:49:06 IST" duration-ms="2178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateEmailFromResponse -->
-      </class> <!-- basics.SingleUser -->
+        </test-method> <!-- getEmail -->
+      </class> <!-- basics.GetDynamicValuesFromJSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
