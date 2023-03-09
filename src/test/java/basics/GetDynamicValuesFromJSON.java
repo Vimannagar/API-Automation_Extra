@@ -33,6 +33,8 @@ Response response	=	given()
 		.response();
 
 	String stringresponse = response.asPrettyString();
+	
+	
 
 
 	JsonPath jp = new JsonPath(stringresponse);

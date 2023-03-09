@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-06T09:03:50 IST" name="Default suite" finished-at="2023-03-06T09:03:57 IST" duration-ms="6993">
+  <suite started-at="2023-03-09T08:50:01 IST" name="Default suite" finished-at="2023-03-09T08:50:08 IST" duration-ms="6284">
     <groups>
     </groups>
-    <test started-at="2023-03-06T09:03:50 IST" name="Default test" finished-at="2023-03-06T09:03:57 IST" duration-ms="6993">
-      <class name="serializeanddeserialize.CreateUser">
-        <test-method signature="createUser()[pri:0, instance:serializeanddeserialize.CreateUser@32b260fa]" started-at="2023-03-06T09:03:50 IST" name="createUser" finished-at="2023-03-06T09:03:57 IST" duration-ms="6885" status="PASS">
+    <test started-at="2023-03-09T08:50:01 IST" name="Default test" finished-at="2023-03-09T08:50:08 IST" duration-ms="6284">
+      <class name="ecommerceapi.Login">
+        <test-method signature="loginToApp()[pri:0, instance:ecommerceapi.Login@32b260fa]" started-at="2023-03-09T08:50:01 IST" name="loginToApp" finished-at="2023-03-09T08:50:07 IST" duration-ms="6164" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- serializeanddeserialize.CreateUser -->
+        </test-method> <!-- loginToApp -->
+      </class> <!-- ecommerceapi.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
