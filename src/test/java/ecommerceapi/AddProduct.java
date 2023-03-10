@@ -3,6 +3,8 @@ package ecommerceapi;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
 
@@ -15,7 +17,7 @@ public class AddProduct extends BaseData {
 	{
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		
-		given()
+		Response resp = given()
 		.header("Authorization", tokenid)
 		
 		.param("productName", "Ladies sports shoe")
@@ -35,6 +37,17 @@ public class AddProduct extends BaseData {
 		.log().all()
 		.extract()
 		.response();
+		
+		JsonPath jp= resp.jsonPath();
+		
+		String prdid= jp.getString("productId");
+		
+		productid = prdid;
+		
+		
+		
+		
+		
 		
 		
 		
